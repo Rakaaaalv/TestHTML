@@ -45,7 +45,7 @@ body {
 }
 
 .navbar .navbar-icon a {
-  color: rgb(0, 0, 0);
+  color: black;
   margin: 15px;
 }
 
@@ -56,10 +56,11 @@ body {
 }
 
 .banner-content h1 {
-  font-size: 50px;
+  font-size: 70px;
   margin-top: 50px;
   margin-bottom: 5px;
   font-weight: 100;
+  padding: 0;
 }
 
 .banner-content h1 span {
@@ -80,7 +81,7 @@ body {
   font-size: 15px;
   background-color: white;
   color: black;
-  padding: 10px 20px;
+  padding: 10px 200px;
   border-color: white;
   border: 2px;
   border-radius: 5px;
@@ -99,12 +100,13 @@ body {
 .categories {
   background-color: white;
   text-align: center;
-  padding: 50px;
+  padding: 100px;
 }
 
 .categories h2 {
   font-size: 30px;
   margin-bottom: 20px;
+  padding: 10px;
   color: black;
   text-align: left;
   font-weight: normal;
@@ -112,6 +114,7 @@ body {
 
 .category-cards {
   display: flex;
+  padding: 10px;
   justify-content: space-around;
   gap: 5px;
 }
@@ -130,4 +133,26 @@ body {
 .category-card p {
   color: black;
   font-weight: 500;
+}
+
+.footer {
+  position: sticky;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+}
+
+.footer h3 {
+  padding: 30px;
+  margin-bottom: 10px;
+}
+
+.footer .footer-icon a {
+  color: white;
+  margin: 40px;
+}
+
+.footer .footer-icon p {
+  padding: 10px;
 }
